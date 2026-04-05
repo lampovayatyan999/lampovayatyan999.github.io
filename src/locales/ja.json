@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "name": "Miroslav Shangelbaev",
+    "location": "🇯🇵 日本",
+    "bio": "フロントエンドに重点を置いたフルスタック開発者です。Eコマースプラットフォームから複雑なダッシュボードまで、いくつかのプロジェクトに取り組んできました。美しくパフォーマンスの高いウェブアプリケーションの作成に情熱を持っています。",
+    "status": "アクティブ",
+    "lastCommit": "最終コミット",
+    "currentStreak": "現在の連続記録",
+    "longestStreak": "最長記録",
+    "days": "日",
+    "ago": "前"
+  },
+  "nowPlaying": {
+    "title": "コーディング中に聴いている曲",
+    "song": "Lofi Hip Hop Radio",
+    "subtitle": "リラックスしてコーディングするためのビート",
+    "listenOn": "🎧 Spotifyで聴く"
+  },
+  "projects": {
+    "title": "プロジェクト",
+    "filterRecent": "最近更新",
+    "filterStars": "スターが多い順",
+    "loading": "リポジトリを読み込み中...",
+    "noDescription": "説明はありません",
+    "viewCode": "コードを見る",
+    "viewAll": "GitHubですべてのリポジトリを見る",
+    "updated": "更新日"
+  },
+  "techStack": {
+    "title": "技術スタック"
+  },
+  "githubStats": {
+    "title": "📊 GitHub統計",
+    "totalStars": "合計スター",
+    "totalForks": "合計フォーク",
+    "publicRepos": "公開リポジトリ",
+    "contributions": "貢献数"
+  },
+  "activity": {
+    "title": "アクティビティ",
+    "status": "ステータス",
+    "active": "アクティブ",
+    "lastCommit": "最終コミット"
+  },
+  "social": {
+    "title": "ソーシャルネットワーク",
+    "downloadResume": "履歴書をダウンロード →"
+  }
+}

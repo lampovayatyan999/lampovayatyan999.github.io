@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "name": "Miroslav Shangelbaev",
+    "location": "🇯🇵 Япония",
+    "bio": "Я Full-stack разработчик с фокусом на Frontend. Я работал над несколькими проектами, от платформ электронной коммерции до сложных дашбордов. Увлечен созданием красивых и производительных веб-приложений.",
+    "status": "Активен",
+    "lastCommit": "последний коммит",
+    "currentStreak": "Текущая серия",
+    "longestStreak": "Самая длинная серия",
+    "days": "дней",
+    "ago": "назад"
+  },
+  "nowPlaying": {
+    "title": "СЕЙЧАС КОДИТ ПОД",
+    "song": "Lofi Hip Hop Radio",
+    "subtitle": "биты для релакса и кода",
+    "listenOn": "🎧 Слушать на Spotify"
+  },
+  "projects": {
+    "title": "Проекты",
+    "filterRecent": "Недавние",
+    "filterStars": "По звездам",
+    "loading": "Загрузка репозиториев...",
+    "noDescription": "Описание не предоставлено",
+    "viewCode": "Посмотреть код",
+    "viewAll": "Все репозитории на GitHub",
+    "updated": "Обновлен"
+  },
+  "techStack": {
+    "title": "Технологии"
+  },
+  "githubStats": {
+    "title": "📊 GitHub Статистика",
+    "totalStars": "Всего звезд",
+    "totalForks": "Всего форков",
+    "publicRepos": "Публичных репозиториев",
+    "contributions": "Контрибьюций"
+  },
+  "activity": {
+    "title": "Активность",
+    "status": "Статус",
+    "active": "Активен",
+    "lastCommit": "Последний коммит"
+  },
+  "social": {
+    "title": "Социальные сети",
+    "downloadResume": "Скачать резюме →"
+  }
+}

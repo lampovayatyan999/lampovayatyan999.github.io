@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,161 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --title-color: hsl(230, 48%, 15%);
+  --text-color: hsl(230, 16%, 20%);
+  --border-color: rgb(229 231 235);
+  --body-color: hsl(230, 12%, 98%);
+  --container-color: hsl(230, 12%, 92%);
+  --first-color: hsl(230, 62%, 56%);
+  --white-color: hsl(0, 0%, 100%);
+
+}
+
+.dark {
+  --title-color: hsl(230, 48%, 85%);
+  --text-color: hsl(230, 16%, 70%);
+  --border-color: hsl(230, 62%, 56%);
+  --body-color: hsl(230, 12%, 8%);
+  --container-color: hsl(230, 12%, 12%);
+  --first-color: hsl(230, 62%, 56%);
+  --white-color: hsl(0, 0%, 100%);
+
+}
+
+html, body {
+  @apply bg-body text-text transition-colors duration-300;
+  min-height: 100%;
+}
+
+
+/* Добавьте в ваш глобальный CSS файл */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-glow {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 0.6; }
+}
+
+.animate-float {
+    animation: float 4s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+    animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* Стили для скроллбара в стиле Steam */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a2e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8b5cf6;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7c3aed;
+}
+
+/* Скрываем скроллбар для горизонтальной прокрутки */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Анимация для карточек */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.flex > .flex-shrink-0 {
+  animation: slideIn 0.3s ease-out;
+}
+
+/* Стили для Swiper с эффектом cards */
+.project-swiper {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  height: 420px;
+}
+
+.project-swiper .swiper-slide {
+  background: transparent;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.project-swiper .swiper-slide-shadow {
+  border-radius: 1rem;
+}
+
+/* Стили для навигационных кнопок Swiper */
+.project-swiper .swiper-button-next,
+.project-swiper .swiper-button-prev {
+  color: #a855f7;
+  background: rgba(168, 85, 247, 0.2);
+  backdrop-filter: blur(4px);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.project-swiper .swiper-button-next:after,
+.project-swiper .swiper-button-prev:after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.project-swiper .swiper-button-next:hover,
+.project-swiper .swiper-button-prev:hover {
+  background: rgba(168, 85, 247, 0.4);
+  transform: scale(1.1);
+}
+
+.project-swiper .swiper-button-disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* Адаптивность */
+@media (max-width: 640px) {
+  .project-swiper {
+    height: 380px;
+    max-width: 100%;
+  }
+  
+  .project-swiper .swiper-button-next,
+  .project-swiper .swiper-button-prev {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .project-swiper .swiper-button-next:after,
+  .project-swiper .swiper-button-prev:after {
+    font-size: 14px;
+  }
 }

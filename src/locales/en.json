@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "name": "Miroslav Shangelbaev",
+    "location": "🇯🇵 Japan",
+    "bio": "I'm a Full-stack Developer with a focus on Frontend. I've worked on several projects ranging from e-commerce platforms to complex dashboards. Passionate about creating beautiful and performant web applications.",
+    "status": "Active",
+    "lastCommit": "last commit",
+    "currentStreak": "Current streak",
+    "longestStreak": "Longest streak",
+    "days": "days",
+    "ago": "ago"
+  },
+  "nowPlaying": {
+    "title": "NOW CODING TO",
+    "song": "Lofi Hip Hop Radio",
+    "subtitle": "beats to chill & code to",
+    "listenOn": "🎧 Listen on Spotify"
+  },
+  "projects": {
+    "title": "Projects",
+    "filterRecent": "Recent",
+    "filterStars": "Most Stars",
+    "loading": "Loading repositories...",
+    "noDescription": "No description provided",
+    "viewCode": "View code",
+    "viewAll": "View all repositories on GitHub",
+    "updated": "Updated"
+  },
+  "techStack": {
+    "title": "Tech Stack"
+  },
+  "githubStats": {
+    "title": "📊 GitHub Stats",
+    "totalStars": "Total Stars",
+    "totalForks": "Total Forks",
+    "publicRepos": "Public Repos",
+    "contributions": "Contributions"
+  },
+  "activity": {
+    "title": "Activity",
+    "status": "Status",
+    "active": "Active",
+    "lastCommit": "Last commit"
+  },
+  "social": {
+    "title": "Social Networks",
+    "downloadResume": "Download Resume →"
+  }
+}
