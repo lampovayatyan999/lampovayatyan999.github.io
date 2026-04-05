@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b0296d8.css",
+    "main.js": "/static/js/main.ce0dfae6.js",
+    "static/js/453.ad7768ec.chunk.js": "/static/js/453.ad7768ec.chunk.js",
+    "static/media/jabanner.png": "/static/media/jabanner.92fbdc160aae5bc78e5e.png",
+    "static/media/pfpasuka.png": "/static/media/pfpasuka.03b6df9a116b7ea177f5.png",
+    "static/media/eyes.png": "/static/media/eyes.f9540dd8cdf43ba21044.png",
+    "static/media/jaback.png": "/static/media/jaback.827cfc9ded0d2c50ece1.png",
+    "static/media/nefren.gif": "/static/media/nefren.cc0685e8a8438b146fa5.gif",
+    "static/media/nefrenpfp.png": "/static/media/nefrenpfp.691a8e33c87a5bff1cac.png",
+    "static/media/ai.png": "/static/media/ai.1899b81eae0fa6310e81.png",
+    "index.html": "/index.html",
+    "main.0b0296d8.css.map": "/static/css/main.0b0296d8.css.map",
+    "main.ce0dfae6.js.map": "/static/js/main.ce0dfae6.js.map",
+    "453.ad7768ec.chunk.js.map": "/static/js/453.ad7768ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b0296d8.css",
+    "static/js/main.ce0dfae6.js"
+  ]
+}
