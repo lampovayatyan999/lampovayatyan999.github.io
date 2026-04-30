@@ -1,3 +1,5 @@
+[🇷🇺 Русский](README.ru.md) | [🇺🇸 English](README.md) | [🇯🇵 日本語](README.jp.md)
+
 <h1 align="center">Hey, I'm lampovayatyan999 👋</h1>
 
 <p align="center">
@@ -12,10 +14,10 @@
 
 ### 🚀 About me
 
-- Fullstack разработчик: **Next.js** на фронте, **NestJS** на бэке
-- Работаю с **GraphQL**, **Prisma**, **Docker**, **LiveKit**
-- Трогаю **Django** когда хочется Python
-- Люблю современный стек — React 19, Tailwind v4, Vite 8
+- Fullstack Developer: **Next.js** on frontend, **NestJS** on backend
+- Working with **GraphQL**, **Prisma**, **Docker**, **LiveKit**
+- Exploring **Django** when I'm in the mood for Python
+- Passionate about modern stack — React 19, Tailwind v4, Vite 8
 
 ---
 
